@@ -1,27 +1,27 @@
 # # Завдання 1
-# word = input("Введіть слово: ")
-# reversed_word = word[::-1]
-#
-# if word == reversed_word:
-#     print("+")
-# else:
-#     print("-")
+word = input("Введіть слово: ")
+reversed_word = word[::-1]
+
+if word == reversed_word:
+    print("+")
+else:
+    print("-")
 
 # Завдання 2
-# text = input("Введіть текст: ")
-# word = input("Введіть слово, яке потрібно знайти: ")
-#
-# if word in text:
-#     print("YES")
-# else:
-#     print("NO")
+text = input("Введіть текст: ")
+word = input("Введіть слово, яке потрібно знайти: ")
+
+if word in text:
+    print("YES")
+else:
+    print("NO")
 
 # # Завдання 3
-# mail = input("Введіть свою пошту: ")
-# if "@" and "." in mail:
-#     print("YES")
-# else:
-#     print("NO")
+mail = input("Введіть свою пошту: ")
+if "@" and "." in mail:
+    print("YES")
+else:
+    print("NO")
 
 # Завдання 4
 list = input("Введіть текст: ").strip().split()
